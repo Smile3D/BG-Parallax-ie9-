@@ -33,3 +33,30 @@
 .is-touch-device {
     background-size: cover;
 }
+
+
+
+.bg-holder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	@include media ('>desktop') {
+		background-attachment: fixed;
+	}
+}
+
+.bg-holder img {
+	height: auto;
+	position: absolute;
+	width: auto;
+}
+
+.is-touch-device {
+	background-size: cover;
+}
