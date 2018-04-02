@@ -17,3 +17,19 @@
 		background-attachment: fixed;
 	}
 }
+
+
+.bg-holder {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg-holder img {
+    height: auto;
+    position: absolute;
+    width: auto;
+}
+
+.is-touch-device {
+    background-size: cover;
+}
